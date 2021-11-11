@@ -1,0 +1,33 @@
+// CH01 Welcome to Java
+// Compiling and running code with packages using an alternate directory
+javac -d classes packagea/ClassA.class packageb/ClassB.class
+java -cp classes packageb.ClassB
+
+// Create a JAR file
+jar -cvf miel.jar -C classes .
+
+
+// CH02 Java Building Blocks
+constructors
+object fields
+intance initializers
+instance initializer blocks
+
+2 types of data:
+- primitive (single value in memory)
+- reference type
+
+3 types of variables:
+- local variables, don't have a default value
+- instance variables, have a default value
+- class variables, have a default value (static)
+
+local variable type inference (var)
+- is only applicable to local variables
+- this is some syntax sugar to prevent verbosity
+
+
+// CH03 Operators
+operators: unary, binairy, ternary
+
+numeric promotion blz 88
